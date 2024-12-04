@@ -1,0 +1,37 @@
+import React from "react";
+import { Container, Grid, Typography } from "@mui/material";
+
+function NotFound() {
+    return (
+        <Container>
+            <Grid container spacing={2}>
+                <Grid item xs={6} sm={3} md={8}>
+                    <img 
+                        src="/PTA-LOGO-small.png" 
+                        alt="An illustration representing a 404 error" 
+                        style={{ width: "50%", objectFit: "contain", marginBottom: "16px" }} 
+                    />
+                    <Grid>
+                        <Typography variant="h1" sx={{ marginBottom: 2, textAlign: 'center' }}>
+                            404
+                        </Typography>
+                    </Grid>
+                    <Grid>
+                        <Typography variant="h5">
+                            Sorry! The page you are looking for cannot be found. It might be a typo in the URL or the page has been removed.
+                        </Typography>
+                    </Grid>
+                </Grid>
+                <Grid item xs={12} sm={6} md={4}>
+                    <img 
+                        src="/images/DALL.png" 
+                        alt="An illustration representing a 404 error" 
+                        style={{ width: "100%", maxHeight: "400px", objectFit: "contain" }} 
+                    />
+                </Grid>    
+            </Grid>
+        </Container>
+    );
+}
+
+export default NotFound;
