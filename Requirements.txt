@@ -1,0 +1,4 @@
+Requirements
+- Python Version: 3.x
+- Environment: Any IDE or terminal (VS Code, PyCharm, Jupyter Notebook, or command line).
+- Dependencies: None (uses only built-in Python functions).
