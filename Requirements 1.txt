@@ -1,0 +1,21 @@
+Programming Language
+•Python 3.x
+
+Libraries
+•Pandas – Data manipulation and analysis
+•NumPy – Numerical computations
+•Matplotlib – Data visualization
+•Seaborn – Advanced visualizations
+•Scikit-learn – Basic forecasting (optional)
+
+System Requirements
+Hardware Requirements
+•Minimum 4 GB RAM
+•Intel i3 Processor or higher
+
+Software Requirements
+•Windows / macOS / Linux
+•Python 3.x
+•Jupyter Notebook / VS Code
+
+
